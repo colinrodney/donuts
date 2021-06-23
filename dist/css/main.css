@@ -194,7 +194,8 @@ a {
     padding: 0.5rem;
     border: 1px solid purple;
     width: 100%;
-    height: auto; }
+    height: auto;
+    margin: 0 0 1.5rem 0; }
   #locations ul .location-img {
     display: block;
     text-align: center;
