@@ -1,9 +1,38 @@
-// index page styles
+// index page styles (mobile device screens)
 
 // welcome section
 #welcome {
   img {
     margin: 1rem 0;
     width: 100%;
+  }
+}
+
+#locations {
+  border: 2px dotted red;
+  margin: 2rem auto; // top right bottom left
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr;
+
+  // location card styles
+  .card {
+    padding: 0.5rem;
+    border: 1px solid purple;
+    width: 33%;
+    height: auto;
+  }
+
+  ul {
+    // location card images
+    .location-img {
+      display: block;
+      text-align: center;
+    }
+
+    img {
+      display: block;
+      width: 100%;
+    }
   }
 }

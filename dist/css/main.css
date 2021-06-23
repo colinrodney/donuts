@@ -184,6 +184,24 @@ a {
   margin: 1rem 0;
   width: 100%; }
 
+#locations {
+  border: 2px dotted red;
+  margin: 2rem auto;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr; }
+  #locations .card {
+    padding: 0.5rem;
+    border: 1px solid purple;
+    width: 33%;
+    height: auto; }
+  #locations ul .location-img {
+    display: block;
+    text-align: center; }
+  #locations ul img {
+    display: block;
+    width: 100%; }
+
 #header-home, #header-inner {
   width: 100%;
   text-align: center; }
