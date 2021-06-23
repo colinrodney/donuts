@@ -1,0 +1,13 @@
+// HEADER / NAVIGATION BAR
+#header {
+  &-home,
+  &-inner {
+    width: 100%;
+    text-align: center;
+
+    // site logo
+    #logo {
+      width: 150px;
+    }
+  }
+}

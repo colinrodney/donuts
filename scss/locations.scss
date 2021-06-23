@@ -1,0 +1,34 @@
+.box {
+  background-color: $bg-color-blue;
+  color: $light-text-color;
+  height: 20rem;
+}
+
+@media (min-width: 250px) and (max-width: 768px) {
+  #location-section {
+    // background-color: $bg-color3;
+
+    .location {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-auto-rows: auto;
+      grid-gap: 1.5rem;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .location {
+    display: grid;
+    // creates 4 column grid @ larger screen sizes
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: auto;
+    grid-gap: 1.5rem;
+  }
+
+  .box {
+    background-color: $bg-color-blue;
+    color: $light-text-color;
+    height: 20rem;
+  }
+}

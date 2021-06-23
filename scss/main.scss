@@ -1,0 +1,20 @@
+@import "config";
+@import "utilities";
+@import "locations"; //locations page scss styles
+@import "footer"; // footer scss styles
+@import "index";
+@import "navigation";
+
+//CSS RESETS
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+// GLOBAL BODY STYLING
+
+body {
+  background-color: $bg-color-white;
+  line-height: $line-height;
+}

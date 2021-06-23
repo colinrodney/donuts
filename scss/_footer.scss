@@ -1,0 +1,21 @@
+// footer
+#main-footer {
+  footer {
+    background: blue;
+    padding: 2rem;
+    color: #fff;
+    text-align: center;
+  }
+
+  a {
+    color: $light-text-color;
+  }
+
+  ul {
+    margin-top: 1rem;
+  }
+
+  p.lead {
+    font-size: $lead-paragraph-font;
+  }
+}
