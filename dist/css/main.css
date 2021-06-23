@@ -185,14 +185,12 @@ a {
   width: 100%; }
 
 #locations {
-  border: 2px dotted red;
   margin: 2rem auto;
   display: grid;
   grid-template-rows: auto;
   grid-template-columns: 1fr; }
   #locations .card {
     padding: 0.5rem;
-    border: 1px solid purple;
     width: 100%;
     height: auto;
     margin: 0 0 1.5rem 0; }
@@ -206,6 +204,12 @@ a {
   #locations ul address {
     text-align: center;
     font-size: 1.5rem; }
+
+@media (min-width: 992px) {
+  #locations {
+    grid-template-rows: auto;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1.5rem; } }
 
 #header-home, #header-inner {
   width: 100%;

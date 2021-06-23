@@ -9,7 +9,7 @@
 }
 
 #locations {
-  border: 2px dotted red;
+  // border: 2px dotted red; // testing purposes
   margin: 2rem auto; // top right bottom left
   display: grid;
   grid-template-rows: auto;
@@ -18,7 +18,7 @@
   // location card styles
   .card {
     padding: 0.5rem;
-    border: 1px solid purple;
+    // border: 1px solid purple; // testing purposes
     width: 100%;
     height: auto;
     margin: 0 0 1.5rem 0; // top right bottom left
@@ -42,5 +42,14 @@
       font-size: 1.5rem;
       // font-style: normal;
     }
+  }
+}
+
+// MEDIA QUERIES
+@media (min-width: 992px) {
+  #locations {
+    grid-template-rows: auto;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1.5rem;
   }
 }
